@@ -1,4 +1,44 @@
-- eine tote Zelle mit drei lbenden Nachbarn wird in der Folgegeneration enu geboren
-- Lebende Zellen mit weniger als zwei lbenden Nachbarn sterben in der Folgegeneration.
-- Eine leb ende Zeille mit zwei oder drei lebenden Nachbarn bleibt in der Folgegeneration am leben.
-- Lebende Zellen mit mehr als drei lebenden Nachbarn sterben ind er Folgegeneration an ueberbevoelkerung.
+# Conway's Game of Life
+
+This is a JavaScript implementation of Conway's Game of Life. You can build your own terminal/web/whatever game using this project's game API.
+
+Example terminal demo output:
+
+```
+Generation: 2    Cells: 98/700 (117)
+
+· · · · · · · · · · · · ◉ · · · · · · · · · · · · · · ·
+· · · · · · · · · · · ◉ · · · · · · ◉ · · · · · · ◉ · ·
+· · · · · · · · · · ◉ · · · · · · · · · · ◉ · · ◉ ◉ · ·
+· · · · · · · · · ◉ · · · · · · · · · · · · · · · ◉ · ·
+· · · ◉ · · · · ◉ · ◉ · · · · · · · · ◉ · · · ◉ · · ◉ ·
+· · ◉ · · · · · · · · ◉ · · ◉ ◉ · · · · · · · ◉ · · · ·
+· ◉ · · · · · · · · · ◉ · · · · · · · · · · ◉ · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· ◉ · · ◉ · · · · ◉ ◉ · · · · · · · · · · · · · ◉ · · ·
+◉ · · ◉ · ◉ · · · · · · · · · · · · · · · · · ◉ · · · ·
+· · ◉ · · · · · · · · ◉ ◉ · · · · · · · · · · · · · · ·
+· · · · · · · · · · ◉ ◉ · · ◉ ◉ ◉ · · · · · · · · · · ·
+· · · · · · · · · · · · · · · ◉ ◉ ◉ · · · · · · · · · ·
+· · · · · · · · · · · · · · · · ◉ · · · · · · · · · · ·
+· · · · · · · · · · ◉ ◉ ◉ · · · · · · · · · · · · ◉ ◉ ·
+· · · · · · · · · · · ◉ ◉ ◉ · · · · · · · · · · · ◉ ◉ ·
+· · ◉ ◉ ◉ · · · · · · · ◉ · ◉ · · · · · · · · · · · · ·
+· ◉ · · ◉ · · · · · · · · · ◉ ◉ · · · · · · · · · · · ·
+· · ◉ ◉ · · · ◉ ◉ · · · · · · ◉ ◉ ◉ · · · · · · · · · ·
+◉ · · · · · · ◉ · · · · · · · · ◉ · · · · · · · · · · ·
+◉ ◉ · · · · · · ◉ · ◉ ◉ · · · · · · · · · · · · · · · ·
+◉ ◉ · · · · · · · ◉ ◉ ◉ · · · · · · · · · ◉ · · · · · ·
+◉ · · · · · ◉ · · · · · · · · · · · ◉ · ◉ · · · · · · ·
+· · · · · · ◉ · · · · · · · · · · ◉ ◉ ◉ ◉ ◉ · · · · · ·
+· · · · · · · · · · · · · · · · · ◉ · · ◉ ◉ · · · · · ·
+```
+
+## Running terminal game demo
+
+```sh
+$ git@github.com:pmb0/game-of-life.git
+$ cd game-of-life
+$ yarn
+$ demo/terminal/start.js
+```

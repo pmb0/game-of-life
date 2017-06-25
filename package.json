@@ -1,6 +1,15 @@
 {
   "name": "game-of-life",
   "main": "index.js",
+  "version": "1.0.0",
+  "description": "A Game Of Life implementation",
+  "repository": "git@github.com:pmb0/game-of-life.git",
+  "author": "Philipp Busse",
+  "scripts": {
+    "watch": "webpack -w demo/web/src/app.js demo/web/dist/app.js",
+    "test": "eslint . && mocha --bail"
+  },
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-config-standard": "^10.2.1",
