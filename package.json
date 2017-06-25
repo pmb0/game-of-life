@@ -3,7 +3,7 @@
   "main": "index.js",
   "version": "1.0.0",
   "description": "A Game Of Life implementation",
-  "repository": "git@github.com:pmb0/game-of-life.git",
+  "repository": "https://github.com/pmb0/game-of-life.git",
   "author": "Philipp Busse",
   "scripts": {
     "watch": "webpack -w demo/web/src/app.js demo/web/dist/app.js",

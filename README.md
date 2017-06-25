@@ -37,7 +37,7 @@ Generation: 2    Cells: 98/700 (117)
 ## Running terminal game demo
 
 ```sh
-$ git clone git@github.com:pmb0/game-of-life.git
+$ git clone https://github.com/pmb0/game-of-life.git
 $ cd game-of-life
 $ yarn
 $ demo/terminal/start.js
